@@ -1,0 +1,81 @@
+body {
+	background-image: url(image/image_de_fond2.png);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: 100%;	
+	background-attachment: fixed;
+}
+
+.info {
+	border-radius: 4px;
+	width: 500px;
+	height: 350px;
+	position: relative;
+	left: 300px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-color: rgba(255,255,255,.6);
+}
+
+.title {
+	background-image: linear-gradient(to right, rgb(0, 120, 120), rgb(0, 102, 102));
+	padding: 3px;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 15px;
+	border-radius: 4px 4px 0px 0px;
+}
+
+#compute {
+	background-image: linear-gradient(to right, rgb(0, 120, 120), rgb(0, 102, 102));
+	padding: 10px;
+	width: 450px;
+	color: white;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.model, .price-by-day, .price-by-km, .begin, .end, .distance {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 3px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	width: 450px;
+	background-color: rgba(255,255,255,.9);
+}
+
+.option {
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+#actors {
+	width: 400px;
+	height: 200px;
+	position: relative;
+	left: 350px;
+	background-color: rgba(255,255,255,.6);
+}
+
+.actor {
+	margin-bottom: 5px;
+	margin-left: 20px;
+	background-color: rgba(255,255,255,.9);
+	border-radius: 5px;
+	padding: 2px;
+	width: 350px;
+}
+
+.footer {
+	background-image: url(image/drivy_logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	left: 50px;
+	bottom: 250px;
+
+}
