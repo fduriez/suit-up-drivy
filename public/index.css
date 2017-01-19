@@ -8,7 +8,7 @@ body {
 
 .info {
 	border-radius: 4px;
-	width: 500px;
+	width: 400px;
 	height: 350px;
 	position: relative;
 	left: 300px;
@@ -19,21 +19,23 @@ body {
 
 .title {
 	background-image: linear-gradient(to right, rgb(0, 120, 120), rgb(0, 102, 102));
-	padding: 3px;
+	padding: 5px;
 	color: white;
-	font-size: 25px;
+	font-size: 22px;
 	margin-bottom: 15px;
 	border-radius: 4px 4px 0px 0px;
+	font-family: "Arial Black";
 }
 
 #compute {
 	background-image: linear-gradient(to right, rgb(0, 120, 120), rgb(0, 102, 102));
 	padding: 10px;
-	width: 450px;
+	width: 355px;
 	color: white;
 	margin-left: 20px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
+	font-size: 17px;
 }
 
 .model, .price-by-day, .price-by-km, .begin, .end, .distance {
@@ -42,7 +44,7 @@ body {
 	padding: 3px;
 	margin-left: 20px;
 	margin-bottom: 10px;
-	width: 450px;
+	width: 350px;
 	background-color: rgba(255,255,255,.9);
 }
 
@@ -52,20 +54,36 @@ body {
 }
 
 #actors {
-	width: 400px;
-	height: 200px;
+	width: 240px;
+	height: 220px;
 	position: relative;
-	left: 350px;
+	left: 380px;
 	background-color: rgba(255,255,255,.6);
+	border-radius: 3px;
 }
 
 .actor {
-	margin-bottom: 5px;
+	display: flex;
+}
+
+.who {
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255,.9);
 	margin-left: 20px;
+	border-radius: 5px;
+	padding: 2px;
+	width: 120px;
+	height: 17px;
+}
+
+.amount {
+	margin-left: 25px;
 	background-color: rgba(255,255,255,.9);
 	border-radius: 5px;
 	padding: 2px;
-	width: 350px;
+	height: 17px;
+	width: 50px;
+	text-align: center;
 }
 
 .footer {
@@ -77,5 +95,4 @@ body {
 	position: fixed;
 	left: 50px;
 	bottom: 250px;
-
 }
